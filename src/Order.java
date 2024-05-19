@@ -31,6 +31,8 @@ public class Order {
         o.setS(OrderStatus.WAIT);
         System.out.println(o.getS());
         System.out.println(o.check());
+        System.out.println(OrderStatus.WAIT.ordinal());
 
     }
+
 }
